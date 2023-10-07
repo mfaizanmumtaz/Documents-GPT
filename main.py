@@ -3,7 +3,7 @@ import openai
 import json
 import requests
 import os
-openai.api_key = " "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"
+openai.api_key = "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"
 
 def send_email(email_id,subject,content):
   import smtplib
