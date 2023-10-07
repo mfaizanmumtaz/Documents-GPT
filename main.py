@@ -6,7 +6,6 @@ from llama_index.llms import OpenAI
 import openai
 from llama_index import SimpleDirectoryReader
 
-# openai.openai_key = st.secrets["OPENAI_API_KEY"]
 openai.api_key = "939YwAE9968tjhybVfcyT3BlbkFJI207LvbR3AhaRiiREhOM"
 st.set_page_config(page_title="Pakistani AI lawyer.", layout="centered", initial_sidebar_state="auto", menu_items=None)
 st.title("Pakistani AI Lawyer!")
