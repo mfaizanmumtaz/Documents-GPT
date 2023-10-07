@@ -7,11 +7,11 @@ import openai
 from llama_index import SimpleDirectoryReader
 
 
-<<<<<<< HEAD
+
 # openai.api_key = "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"
 
 openai.openai_key = st.secrets["OPENAI_API_KEY"]
-=======
+
 openai.api_key = "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"
 >>>>>>> refs/remotes/origin/main
 
